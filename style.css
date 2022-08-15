@@ -1,0 +1,27 @@
+:root {
+    --Dark-beige: #E6DACD;
+    --Light-beige: #F4ECE6;
+    --Royal-blue: #0150FD;
+    --Black: #000;
+    --White: #FFF;
+}
+
+.first__part-of-head{
+    display: flex;
+    flex-direction: row;
+}
+
+.little__box{
+    border: 2px var(--Royal-blue) solid;
+    width: 16px;
+    height:16px;
+    background-color: var(--Royal-blue);
+    margin-top: 10px;
+
+}
+.first__name{
+    font-family: 'poppins' , sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin:0px 15px;
+}
